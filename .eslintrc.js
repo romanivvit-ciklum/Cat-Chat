@@ -42,6 +42,7 @@ module.exports =
         "@typescript-eslint/no-inferrable-types": 0,
         "@typescript-eslint/no-use-before-define": 0,
         "@typescript-eslint/no-var-requires": 0,
+        "@typescript-eslint/no-namespace": 0,
         "arrow-parens": ["error", "always"],
         "import/extensions": [
         2,
@@ -79,7 +80,7 @@ module.exports =
         "react/jsx-indent": [2, 4],
         "react/jsx-indent-props": [2, "first"],
         "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
-        "react/jsx-props-no-spreading": 1,
+        "react/jsx-props-no-spreading": 0,
         "react/prefer-stateless-function": 1,
         "react-hooks/exhaustive-deps": 2
 },
